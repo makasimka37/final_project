@@ -1,0 +1,260 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+li{
+    list-style: none;
+}
+.nav>ul{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    margin-top: 35px;
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color: gray;
+}
+.nav>ul>li>a:hover{
+    color: black;
+    font-size: 110%;
+}
+
+hr{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.name{
+    width: 30%;
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 35px;
+}
+.years{
+    width: 30%;
+    font-size: 25px;
+    text-align: center;
+}
+.eng{
+    width: 30%;
+    font-size: 25px;
+    text-align: end;
+    writing-mode: vertical-rl;
+}
+.info{
+    display: flex;
+    max-width: 100%;
+}
+.header>.container>img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.p{
+    padding-bottom: 100px;
+}
+.main{
+    background-color: rgb(223, 223, 223);
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.footer>p{
+    margin-top: 50px;
+}
+.first-1{
+    width: 100px;
+    height: 100px;
+    margin-left: 87px;
+    margin-bottom: 25px;
+}
+.first-2{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+}
+.first-3{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+}
+.first-4{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+}
+.footer>.container>ul>li>.text-1{
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.footer>.container>ul>li>.text-2{
+    margin-left: 12px;
+    margin-bottom: 50px;
+}
+.footer>.container>ul>li>.text-3{
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.footer>.container>ul>li>.text-4{
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.container-inner{
+    width: 1500px;
+}
+.container>ul{
+    display: flex;
+    margin-top: 110px;
+}
+.footer>.container>h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footer>.container>ul>li>p{
+    color: rgb(85, 85, 85);
+}
+.footer>.container>ul>li>i{
+    margin-left: 15px;
+    font-size: 30px;
+}
+.text>h1{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+.text>p{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+}
+.btn>p{
+    color: white;
+    padding-top: 10px;
+}
+.btn>p>a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    width: 100%;
+}
+.text-inner{
+    margin-top: 50px;
+}
+.text-inner>ul{
+    display: flex;
+}
+.text-inner>ul>a>i{
+    font-size: 70px;
+    color: black;
+}
+.text-inner>p{
+    color: rgb(121, 121, 121);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.burger-menu{
+    display: none;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+.burger-menu ul{
+    list-style: none;
+}
+.burger-menu ul li{
+    padding-bottom: 50px;
+}
+
+.burger-menu ul li a{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-weight: bold;
+}
+.burger-menu ul li>a:hover{
+    color: black;
+}
+.container .first-child{
+    position: sticky;
+    left: 200px;
+    font-size: 50px;
+    color: black;
+    display: none;
+}
+@media screen and (max-width:644px){
+    .nav>ul{
+        list-style: none;
+        display: flex;
+        font-size: 15px;
+        margin-top: 35px;
+        margin-right: 20px;
+    }
+    .name{
+        width: 30%;
+        font-size: 20px;
+        text-align: start;
+        margin-bottom: 35px;
+    }
+    .years{
+        width: 30%;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .eng{
+        width: 30%;
+        font-size: 15px;
+        text-align: end;
+        writing-mode: vertical-rl;
+        margin-bottom: 40px;
+    }
+    hr{
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .container>ul{
+        display: flex;
+        flex: 25%;
+        flex-wrap: wrap;
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width:420px) {
+    .nav>ul{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .info .eng{
+        display: none;
+    }
+    .info .years{
+        margin-top: 20px;
+    }
+    .burger-menu{
+        
+    }
+    .container .first-child{
+        display: block;
+        position: relative;
+        left: 350px;
+    }
+}
